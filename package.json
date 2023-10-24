@@ -10,7 +10,6 @@
     "dev": "concurrently npm:sass-watch npm:browser-sync",
     "lint": "stylelint styles.scss ./**/*.scss"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +19,7 @@
     "postcss": "^8.4.31",
     "sass": "^1.69.4",
     "stylelint": "^15.11.0",
-    "stylelint-config-sass-guidelines": "^10.0.0"
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-config-standard": "^34.0.0"
   }
 }
