@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -97,3 +98,154 @@ body {
 .container-1 p {
     line-height: 2rem;
 }
+
+/*ANA*/
+:root{
+    /* Grunn bilið okkar er 1rem == 16px */
+    --font-base-body-px: 16px;
+    --spacing: 1rem;
+
+    /* litir */
+    --color-coffee: #6F4E37;
+    --color-black-coffee: #3C2A1E;
+    --color-light:#FEFEFE;
+    --color-coffeewithmilk: #E1CEC2;
+    --color-header: #000;
+
+    /* Border breiddir */
+    --border-small: 1px;
+    --border-large: 8px;
+    --border-radius: 6px;
+
+
+    /* Letur stillingar */
+    --font-base-size: 1rem;
+    --font-family-base: 'Noto Sans Display', Helvetica, Arial, sans-serif;
+    --font-family-heading: 'Anybody', Georgia, serif;
+}
+/* Leturgerðir */
+@font-face{
+    font-family: 'Anybody';
+    font-style: normal;
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css2?family=Anybody:wght@300&family=Lora:wght@400;700&family=Noto+Sans+Display:wght@400;700&display=swap) format('woff');
+}
+
+  
+
+/* Pöntunarform */  
+  
+fieldset {
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  .right {
+    text-align: left;
+  }
+  
+  td input {
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+
+  /* Takki */
+  button {
+    text-align: center; 
+    color: #FEFEFE;
+    background-color: var(--color-coffee);
+    border-radius: var(--border-radius);
+    border-color: var(--color-light);
+    border:var(--border-small) var(--color-black-coffee)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+
+
+  .stortbox {
+    border: 2px solid #000;
+    display: flex;
+    align-items: center; /* Vertically center the boxes */
+    margin-bottom: calc(var(--spacing) * 2);
+    width: 100%;
+  }
+  
+  /* Styles for individual boxes */
+  .stortbox .box1,
+  .stortbox .box3 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+  
+  /* Styles for .box1 */
+  .stortbox .box1 {
+    border: 5px solid red;
+    min-height: 500px;
+  }
+  
+  
+  /* Styles for .box3 */
+  .stortbox .box3 {
+    border: 5px solid green;
+    min-height: 500px;
+  }
+
+
+
+
+.content {
+        border-bottom: #c3c3c3 solid 2px;
+    }
+
+  .box3 .container img{
+    max-height:fit-content;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 300px;
+    margin: 0 auto; 
+  }
+  
+  .card {
+    border-bottom: #E1CEC2 solid 2px;
+    padding: 10px;
+    margin: 5px; 
+    text-align: left;
+    width: 100%; 
+  }
+  .card .container3{
+    border-bottom: none;
+  }
+  .card img {
+    max-width: 100%;
+  }  
+
+  img{
+    float: left;
+    max-width: 100%;
+    border-radius: 2px;
+    object-fit: cover;
+    object-position: center;
+  }
+ 
+  /*ANA*/
+
