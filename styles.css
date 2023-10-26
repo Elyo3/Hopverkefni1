@@ -2,9 +2,32 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
+:root {
+    
+    /* Litir */
+    --color-coffee: #6F4E37;
+    --color-black-coffee: #3C2A1E;
+    --color-dark: #3C2A1E;
+    --color-light: #fff9ee;
 
+    --color-primary: #f0f0f8;
+    --color-header: #fff;
+    --color-text: #000;
+    --color-border: #ccc;
+
+    /* Letur stillingar */
+    --font-base-size: 1rem;
+    --font-family-base: 'Noto Sans Display', Helvetica, Arial, sans-serif;
+    --font-family-heading: 'Lora', Georgia, serif;
+
+    /* Border breiddir */
+    --border-small: 1px;
+    --border-large: 8px;
+    --border-radius: 6px;
+}
 
 /* header */
 
@@ -97,3 +120,69 @@ body {
 .container-1 p {
     line-height: 2rem;
 }
+.container-2 {
+    background-color: #E1CEC2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-2 ul li img {
+    max-height: 400px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.container-2 ul li {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    gap: 1%;
+    clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 100%);
+}
+
+.container-2 .title {
+    font-size: 30px;
+    padding-left: 100px;
+
+}
+.box {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    line-height: 1.5rem;
+}
+.button {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.button a{
+    text-align: center;
+    color:var(--color-black-coffee);
+    background-color: white;
+    border-radius: var(--border-radius);
+    border-color: var(--color-coffee);
+    border:var(--border-small) var(--color-coffee)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+  .button a {
+    text-decoration: none;
+  }
+
+  button a{
+    text-align: center; 
+    color: #FEFEFE;
+    background-color: var(--color-coffee);
+    border-radius: var(--border-radius);
+    border-color: var(--color-dark);
+    border:var(--border-small) var(--color-dark)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
