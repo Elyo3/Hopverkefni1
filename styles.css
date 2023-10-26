@@ -46,7 +46,7 @@ header {
 }
 
 .navigation-search input {
-    width: 100%;
+    width: 300px;
     padding: 5px;
 }
 
@@ -76,6 +76,7 @@ nav ul li a {
 .demo-wrap {
 position: relative;
 }
+
 .demo-wrap:before {
 content: ' ';
 display: block;
@@ -201,14 +202,27 @@ body {
     .demo-wrap,
     header {
         grid-template-columns: 1fr;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
     }
 
+    .container-2.title {
+        padding-left: 0px;
+    }
     .container-1,
     .container-2,
     .demo-wrap,
     header {
         margin: 0 auto; 
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
     }
 }
 
-
+@media (max-width: 500px){
+    .container-head {
+        text-align: center;
+        padding: 50px;
+    }
+    .container-head h1{
+        font-size: 400%;
+    }
+}
