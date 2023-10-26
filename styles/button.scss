@@ -1,0 +1,31 @@
+.button {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.button a{
+    text-align: center;
+    color:var(--color-black-coffee);
+    background-color: white;
+    border-radius: var(--border-radius);
+    border-color: var(--color-coffee);
+    border:var(--border-small) var(--color-coffee)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+  .button a {
+    text-decoration: none;
+  }
+
+  button a{
+    text-align: center; 
+    color: #FEFEFE;
+    background-color: var(--color-coffee);
+    border-radius: var(--border-radius);
+    border-color: var(--color-dark);
+    border:var(--border-small) var(--color-dark)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
