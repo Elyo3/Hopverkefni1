@@ -1,0 +1,41 @@
+/* header */
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navigation-search input {
+    width: 300px;
+    padding: 5px;
+}
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
