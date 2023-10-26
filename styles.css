@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+
+
+*,
+*:before
+*:after {
+    box-sizing: inherit;
+}
+
+
 :root {
     
     /* Litir */
@@ -27,49 +36,21 @@
     --border-small: 1px;
     --border-large: 8px;
     --border-radius: 6px;
-}
+  
+      /* Grunn bilið */
+    --spacing: 16px;
 
-/* header */
+    /* Hámarksbreidd á efni */
+    --max-width: 1400;
+    --width-offset: calc(100% - (2 * var(--offset)));
 
-header {
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    /* Grid stillingar */
+    --columns: 12;
+    --gutter: 30px;
+    --offset: 20px;
 
-.logo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
 
-.navigation-search input {
-    width: 300px;
-    padding: 5px;
-}
 
-.navigation ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 0 10px;
-}
-
-nav ul li:first-child {
-    margin-left: 0; 
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
 
 /* body */
 
@@ -121,6 +102,7 @@ body {
 .container-1 p {
     line-height: 2rem;
 }
+
 .container-2 {
     background-color: #E1CEC2;
     padding-top: 100px;
@@ -265,4 +247,27 @@ body {
         text-decoration: none;
         color: black;
     }
+  }
+  
+
+
+.boxes {
+    display: grid;
+    grid-template-rows: auto;
+    gap: var(--vertical-space);
+    justify-items: center;
+  
+    width: 100%;
+  }
+
+.boxes .box {
+    display: flex;
+    width: 330px;
+    height: 360px;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(spacing);
+
 }
