@@ -226,3 +226,43 @@ body {
         font-size: 400%;
     }
 }
+
+@media (max-width: 500px) {
+    header {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .navigation-search input {
+        display: none;
+    }
+    
+    .navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    nav ul .navigate {
+        display: none;
+    }
+    
+    nav ul li:first-child {
+        margin-left: 0; 
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+}
