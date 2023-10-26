@@ -10,7 +10,6 @@
     "dev": "concurrently npm:sass-watch npm:browser-sync",
     "lint": "stylelint styles.scss ./**/*.scss"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
