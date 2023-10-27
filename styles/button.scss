@@ -1,0 +1,111 @@
+.button {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+
+.button a {
+    text-align: center;
+    color:var(--color-black-coffee);
+    background-color: white;
+    border-radius: var(--border-radius);
+    border-color: var(--color-coffee);
+    border:var(--border-small) var(--color-coffee)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block; 
+    width: 100%;
+
+
+  }
+
+  .logo {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .button a {
+    text-decoration: none;
+  }
+  
+
+  button a{
+    text-align: center; 
+    color: #FEFEFE;
+    background-color: var(--color-coffee);
+    border-radius: var(--border-radius);
+    border-color: var(--color-dark);
+    border:var(--border-small) var(--color-dark)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+   
+  }
+
+
+
+  .vorulisti-button {
+    display: block; 
+    width: 100%;
+
+    border-radius: 5px;
+    border: 1px solid #6F4E37;
+    padding: calc(var(--spacing)/1.5) calc(var(--spacing));
+    
+    text-decoration: none;
+    text-align: center;
+
+    color: #6F4E37;
+    background-color: #FEFEFE;
+}
+
+
+  .senda-pontun {
+    text-align: center; 
+    color: #FEFEFE;
+    background-color: var(--color-coffee);
+    border-radius: var(--border-radius);
+    border-color: var(--color-light);
+    border:var(--border-small) var(--color-black-coffee)solid;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  .senda-pontun:hover{
+        background-color:#3C2A1E;
+      }
+
+
+
+
+      /* TAKKI-VERÐ */
+
+.price-button {
+  display: flex;
+  align-items: center;
+  gap:250px;
+  padding-top: 2rem;
+}
+
+.price-box {
+  flex: 1; 
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+.price-button button {
+  text-align: center;
+    color: #3C2A1E;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #6F4E37;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: border-color 0.3s, width 0.3s; 
+    cursor: pointer;
+    padding: 10px 20px; 
+    font-size: 14px;
+   width: 400px;
+}
+
+

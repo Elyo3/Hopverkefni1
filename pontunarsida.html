@@ -1,16 +1,160 @@
 <!DOCTYPE html>
-<html lang="is" class="">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./grid.css">
-    <title>Pöntunarsíða</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pöntunasíða</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/grid.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <div class="wrapper">
+    <div class="demo-content">
+      <header>
+        
+          <a href="index.html" class="logo">
+            <img src="myndir/Logo.png" alt="mynd af logo">
+            <h1>Tæknibúðin</h1>
+            </a>
+        
+            <div class="navigation-search">
+              <input id="" name="" type="" required placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
+              <a href="vara.html">
+             <div class="scope"> <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M14.2857 12.5714H13.3714L13.0286 12.2286C14.1714 10.9714 14.8571 9.25714 14.8571 7.42857C14.8571 3.31429 11.5429 0 7.42857 0C3.31429 0 0 3.31429 0 7.42857C0 11.5429 3.31429 14.8571 7.42857 14.8571C9.25714 14.8571 10.9714 14.1714 12.2286 13.0286L12.5714 13.3714V14.2857L18.2857 20L20 18.2857L14.2857 12.5714ZM7.42857 12.5714C4.57143 12.5714 2.28571 10.2857 2.28571 7.42857C2.28571 4.57143 4.57143 2.28571 7.42857 2.28571C10.2857 2.28571 12.5714 4.57143 12.5714 7.42857C12.5714 10.2857 10.2857 12.5714 7.42857 12.5714Z" fill="black"/>
+              </svg>
+            </div>       
+              </a>   
+          </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="vorulisti.html">Nýjar vörur</a></li>
+                <li><a href="vorulisti.html">Tilboðs vörur</a></li>
+                <li><a href="vorulisti.html">Allar vörur</a></li>
+                <li><a href="pontunarsida.html"><img src="myndir/Cart_icon.png" alt="Mynd af körfu"></a></li>
+            </ul>
+        </nav>
+      </header>
+    </div>
+  
+<div class="panta">
+  <h1>Pöntun</h1>
+  </div>
+  <div class="stortbox"> 
+      <div class="upplysingar">
+        <form>
+          <div class="grid-stortbox">
+            <div class="box1">
+            <h2>Kaupandi</h2>
+            <div class="box2">
+              <div class="input-box2">
+                <label for="name">Nafn</label>
+                <input id="name" type="text" required>
+              </div>
+              <div class="input-box2">
+                <label for="SSN">Kennitala</label>
+                <input id="SSN" type="text" required>
+              </div>
+            </div>
+          
+            <div class="box2">
+              <div class="input-box2">
+                <label for="email">Netfang</label>
+                <input id="email" type="email" required>
+              </div>
+              <div class="input-box2">
+                <label for="phone">Sími</label>
+                <input id="phone" type="tel" required>
+              </div>
+            </div>
+          </div>
+        
+          <div class="box1">
+            <h2>Afhending</h2>
+            <div class="box2">
+              <div class="input-box2">
+                <label for="address">Heimilisfang</label>
+                <input id="address" type="text" required>
+              </div>
+              <div class="input-box2">
+                <label for="zipcode">Póstnúmer</label>
+                <input id="zipcode" type="text" required>
+              </div>
+            </div>
+              <div class="box2">
+              <div class="input-box2">
+                <label for="place">Staður</label>
+                <input id="place" type="text" required>
+              </div>
+              <div class="input-box2">
+                <label for="comments">Athugasemd</label>
+                <input id="comments" type="text" required>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="senda-pontun">SENDA PÖNTUN</button>
+          </div>
+        </form>
+      </div>
+
+      
+      
+
+      
+      
+      <div class="karfa">
+        <div class="samtals">
+          <div class="box3">
+            <img src="myndir/alex-knight-2EJCSULRwC8-unsplash_1.png" alt="Vélmenni">
+            <div class="product-price">
+            <div>
+              <p>Vinalegur vinnuróbot</p>
+            </div>
+            <div class="price">
+              <p>1.499.990 kr.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="samtals">
+          <div class="box3">
+            <img src="myndir/alexandre-debieve-FO7JIlwjOtU-unsplash_1.png" alt="Tæknilegt móðurborð">
+            <div class="product-price">
+              <div>
+              <p>Tæknilegt móðurborð</p>
+            </div>
+            <div class="price">
+              <p>189.000 kr.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="samtals">
+          <div class="box3">
+            <div class="product-price">
+            <div>
+              <p><strong>Samtals</strong></p>
+            </div>
+            <div class="price">
+              <p><strong>1.688.990 kr.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     
   <footer class="footer">
-    <div class = "content"> 
+    <div class = "footer-content"> 
        <section class="footer1">
         <h2>OPNUNARTÍMI</h2>
         <ul>
@@ -50,6 +194,8 @@
       
     
         </footer>
+  </div>
+
 
 </body>
 </html>

@@ -1,0 +1,44 @@
+.container-1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    gap: 3rem; 
+}
+
+.container-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    gap: 3rem; 
+}
+
+
+.container-1 .title {
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+.container-1 p {
+    line-height: 2rem;
+    
+}
+
+.container-1-2 .title {
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+.container-1-2 p {
+    line-height: 2rem;
+    
+}
+
+
