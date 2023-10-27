@@ -57,6 +57,14 @@ padding: 0.5rem;
   padding-left: 2rem;
 }
   
+.footer .footer-content2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  flex-wrap: wrap; 
+ 
+  padding: 2rem;
+}
 
 
 

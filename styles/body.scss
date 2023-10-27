@@ -2,9 +2,9 @@
 
 .demo-wrap {
     position: relative;
-    }
+}
     
-    .demo-wrap:before {
+.demo-wrap:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -17,13 +17,16 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
-    }
-    .demo-content {
+}
+ .demo-content {
     position: relative;
-    }
+}
     
     body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+
+  
