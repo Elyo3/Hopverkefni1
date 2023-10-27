@@ -74,3 +74,38 @@
   .senda-pontun:hover{
         background-color:#3C2A1E;
       }
+
+
+
+
+      /* TAKKI-VERÐ */
+
+.price-button {
+  display: flex;
+  align-items: center;
+  gap:250px;
+  padding-top: 2rem;
+}
+
+.price-box {
+  flex: 1; 
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+.price-button button {
+  text-align: center;
+    color: #3C2A1E;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #6F4E37;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: border-color 0.3s, width 0.3s; 
+    cursor: pointer;
+    padding: 10px 20px; 
+    font-size: 14px;
+   width: 400px;
+}
+
+

@@ -143,6 +143,11 @@ body {
   flex-direction: column;
 }
 
+.wrapper-ana {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* header */
 header {
   padding: 10px;
@@ -150,6 +155,10 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.logo h1 {
+  font-family: "Lora", serif;
 }
 
 .logo {
@@ -398,6 +407,36 @@ button a {
   background-color: #3C2A1E;
 }
 
+/* TAKKI-VERÐ */
+.price-button {
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  padding-top: 2rem;
+}
+
+.price-box {
+  flex: 1;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+.price-button button {
+  text-align: center;
+  color: #3C2A1E;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #6F4E37;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: border-color 0.3s, width 0.3s;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 14px;
+  width: 400px;
+}
+
 .boxes .box img {
   max-height: 210px;
   object-fit: cover;
@@ -564,6 +603,72 @@ input[type=tel] {
 
 .panta h1 {
   font-size: 3.75rem;
+}
+
+/* MYND OG STUTT VÖRULÝSING*/
+.product-page {
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-images {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-details h1 {
+  font-size: 40px;
+  color: black;
+}
+
+.product-details p {
+  font-size: 20px;
+  color: black;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* VÖRULÝSING*/
+.product-info-box {
+  display: flex;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 3.5rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.product-info h1 {
+  font-size: 32px;
+  color: black;
+  padding-bottom: 2rem;
+}
+
+.product-info h2 {
+  font-size: 28px;
+  color: black;
+}
+
+.product-info p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 25px;
 }
 
 .redding {

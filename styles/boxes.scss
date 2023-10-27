@@ -178,3 +178,80 @@ input[type="tel"] {
 .panta h1 {
   font-size: 3.75rem;
 }
+
+
+/* MYND OG STUTT VÖRULÝSING*/
+
+
+.product-page {
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-images {
+  flex: 1; 
+  margin-right: 20px;
+  
+}
+.product-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-details h1 {
+  font-size: 40px;
+  color: black
+}
+
+.product-details p {
+  font-size: 20px;
+  color: black;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+
+
+
+
+
+
+/* VÖRULÝSING*/
+
+.product-info-box {
+  display: flex;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 3.5rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.product-info h1 {
+  font-size: 32px;
+  color: black;
+  padding-bottom: 2rem;
+}
+
+.product-info h2 {
+  font-size: 28px;
+  color: black;
+}
+
+.product-info p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 25px;
+
+}
